@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="PlaystationGameLibrary" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="JamesHynes-Playstation-Games-Library" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

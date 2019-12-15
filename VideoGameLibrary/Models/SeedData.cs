@@ -30,9 +30,10 @@ namespace VideoGameLibrary.Models
                         NoOfPlayers = 1,
                         Publisher = "Atlus",
                         BoxArt = "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_cover_art.jpg",
-                        Rating = "93%",
+                        Rating = "93",
                         Score = 9,
-                        Progress = 100
+                        Progress = 100,
+                        Summary = "Test Summary"
                     },
 
                     new Game
@@ -45,9 +46,11 @@ namespace VideoGameLibrary.Models
                         NoOfPlayers = 1,
                         Publisher = "Sony Interactive Entertainment",
                         BoxArt = "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
-                        Rating = "93%",
+                        Rating = "93",
                         Score = 5,
-                        Progress = 25
+                        Progress = 25,
+                        Summary = "Test Summary"
+
                     },
 
                     new Game
@@ -60,9 +63,10 @@ namespace VideoGameLibrary.Models
                         NoOfPlayers = 1,
                         Publisher = "Sega",
                         BoxArt = "https://upload.wikimedia.org/wikipedia/en/b/ba/Yakuza0.jpg",
-                        Rating = "93%",
+                        Rating = "93",
                         Score = 8,
-                        Progress = 75
+                        Progress = 75,
+                        Summary = "Test Summary"
                     },
 
                     new Game
@@ -75,9 +79,10 @@ namespace VideoGameLibrary.Models
                         NoOfPlayers = 1,
                         Publisher = "Activision",
                         BoxArt = "https://upload.wikimedia.org/wikipedia/en/5/54/Spyro_Reignited_Trilogy.png",
-                        Rating = "93%",
+                        Rating = "93",
                         Score = 7,
-                        Progress = 50
+                        Progress = 50,
+                        Summary = "Test Summary"
 
                     }
                 );

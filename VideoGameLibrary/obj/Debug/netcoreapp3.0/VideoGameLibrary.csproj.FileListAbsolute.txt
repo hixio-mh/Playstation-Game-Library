@@ -133,7 +133,6 @@ D:\VideoGameLibrary\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_TemplateLayout.c
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.csprojAssemblyReference.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\staticwebassets\VideoGameLibrary.StaticWebAssets.Manifest.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\staticwebassets\VideoGameLibrary.StaticWebAssets.xml
-D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.MvcApplicationPartsAssemblyInfo.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.RazorAssemblyInfo.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.RazorAssemblyInfo.cs
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.AssemblyInfoInputs.cache
@@ -263,3 +262,5 @@ D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netco
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.Views.pdb
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.csproj.CopyComplete
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\bin\Debug\netcoreapp3.0\wwwroot\favicon.ico
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\bin\Debug\netcoreapp3.0\RestSharp.dll
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.MvcApplicationPartsAssemblyInfo.cache

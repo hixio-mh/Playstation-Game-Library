@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using RestSharp;
 using VideoGameLibrary.Models;
 
 namespace VideoGameLibrary.Controllers
@@ -18,6 +19,9 @@ namespace VideoGameLibrary.Controllers
         {
             _context = context;
         }
+
+
+
 
         // GET: Games
         public async Task<IActionResult> Index(string gameGenre, string searchString)
@@ -79,16 +83,43 @@ namespace VideoGameLibrary.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Platform,NoOfPlayers,Publisher,BoxArt,Rating,Score,Progress")] Game game)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Platform,NoOfPlayers,Publisher,BoxArt,Rating,Score,Progress,Summary")] Game game)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(game);
+                game = IGDBPost(game);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(game);
         }
+
+        // GET IGDBDetails
+        [HttpPost]
+        public Game IGDBPost(Game game)
+        {
+
+
+            var client = new RestClient("https://api-v3.igdb.com/games/");
+            var request = new RestRequest(Method.POST);
+            request.AddHeader("Postman-Token", "a6b90742-55c3-4d2d-bc3d-5ce9320a7f4a");
+            request.AddHeader("Cache-Control", "no-cache");
+            request.AddHeader("Authorization", "Basic Og==");
+            request.AddHeader("user-key", "f54f84f7f22567b3d7abdddc4faab01b");
+            request.AddParameter("undefined", "fields id,name,summary,rating,rating_count; where name = \"" + game.Title + "\";", ParameterType.RequestBody);
+            IRestResponse<List<IGDBRating>> response = client.Execute<List<IGDBRating>>(request);
+            if (response.Data.Count > 0)
+            {
+                game.Rating = response.Data[0].Rating.ToString("#.##");
+                game.Summary = response.Data[0].Summary;
+            }
+            return game;
+        }
+
+
+
+
 
         // GET: Games/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -111,7 +142,7 @@ namespace VideoGameLibrary.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Platform,NoOfPlayers,Publisher,BoxArt,Rating,Score,Progress")] Game game)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Platform,NoOfPlayers,Publisher,BoxArt,Rating,Score,Progress,Summary")] Game game)
         {
             if (id != game.Id)
             {

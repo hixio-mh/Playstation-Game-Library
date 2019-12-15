@@ -33,11 +33,13 @@ namespace VideoGameLibrary.Models
         [Display(Name = "IMDB Rating"),RegularExpression(@"^[0]*?(?<Percentage>[1-9][0-9]?|100)%?$"), StringLength(5)]
         public string Rating { get; set; }
 
-        [Range (0,10)]
+        [Display(Name = "My Rating"), Range (0,10)]
         public int Score { get; set; }
 
         [Range(0, 100)]
         public decimal Progress { get; set; }
+
+        public string Summary { get; set; }
 
     }
 }

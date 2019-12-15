@@ -59,6 +59,9 @@ namespace VideoGameLibrary.Migrations
                     b.Property<int>("Score")
                         .HasColumnType("int");
 
+                    b.Property<string>("Summary")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(60)")
                         .HasMaxLength(60);

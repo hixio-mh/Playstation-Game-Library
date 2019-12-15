@@ -52,14 +52,29 @@
                 <input asp-for="BoxArt" class="form-control" />
                 <span asp-validation-for="BoxArt" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Rating" class="control-label"></label>
-                <input asp-for="Rating" class="form-control" />
-                <span asp-validation-for="Rating" class="text-danger"></span>
-            </div>
+            @*<div class="form-group">
+            <label asp-for="Rating" class="control-label"></label>
+            <input asp-for="Rating" class="form-control" />
+            <span asp-validation-for="Rating" class="text-danger"></span>
+        </div>*@
             <div class="form-group">
                 <label asp-for="Score" class="control-label"></label>
-                <input asp-for="Score" class="form-control" />
+                @*<input asp-for="Score" class="form-control" />*@
+
+                <select asp-for="Score">
+                    <option selected="selected" value="">Pick one</option>
+                    <option value="1">(1) Appalling</option>
+                    <option value="2">(2) Horrible</option>
+                    <option value="3">(3) Very Bad</option>
+                    <option value="4">(4) Bad</option>
+                    <option value="5">(5) Average</option>
+                    <option value="6">(6) Fine</option>
+                    <option value="7">(7) Good</option>
+                    <option value="8">(8) Very Good</option>
+                    <option value="9">(9) Great</option>
+                    <option value="10">(10) Masterpiece</option>
+
+                </select>
                 <span asp-validation-for="Score" class="text-danger"></span>
             </div>
             <div class="form-group">
