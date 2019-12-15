@@ -262,3 +262,4 @@ D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netco
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.RazorTargetAssemblyInfo.cs
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.Views.pdb
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.0\VideoGameLibrary.csproj.CopyComplete
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\bin\Debug\netcoreapp3.0\wwwroot\favicon.ico

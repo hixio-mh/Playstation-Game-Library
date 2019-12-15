@@ -1,3 +1,5 @@
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp2.1\VideoGameLibrary.csprojAssemblyReference.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp2.1\VideoGameLibrary.AssemblyInfoInputs.cache
 D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp2.1\VideoGameLibrary.AssemblyInfo.cs
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp2.1\VideoGameLibrary.RazorAssemblyInfo.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp2.1\VideoGameLibrary.RazorAssemblyInfo.cs
