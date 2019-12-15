@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VideoGameLibrary\\VideoGameLibrary.csproj": {}
+    "D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\VideoGameLibrary.csproj": {}
   },
   "projects": {
-    "D:\\VideoGameLibrary\\VideoGameLibrary.csproj": {
+    "D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\VideoGameLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VideoGameLibrary\\VideoGameLibrary.csproj",
+        "projectUniqueName": "D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\VideoGameLibrary.csproj",
         "projectName": "VideoGameLibrary",
-        "projectPath": "D:\\VideoGameLibrary\\VideoGameLibrary.csproj",
+        "projectPath": "D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\VideoGameLibrary.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\VideoGameLibrary\\obj\\",
+        "outputPath": "D:\\Playstation-Library\\Playstation-Game-Library\\VideoGameLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

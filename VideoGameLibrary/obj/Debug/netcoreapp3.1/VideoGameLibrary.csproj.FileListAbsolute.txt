@@ -1,0 +1,8 @@
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.csprojAssemblyReference.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\staticwebassets\VideoGameLibrary.StaticWebAssets.Manifest.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\staticwebassets\VideoGameLibrary.StaticWebAssets.xml
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.MvcApplicationPartsAssemblyInfo.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.RazorAssemblyInfo.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.RazorAssemblyInfo.cs
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.AssemblyInfoInputs.cache
+D:\Playstation-Library\Playstation-Game-Library\VideoGameLibrary\obj\Debug\netcoreapp3.1\VideoGameLibrary.AssemblyInfo.cs
