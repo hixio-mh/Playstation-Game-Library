@@ -1,0 +1,104 @@
+﻿@model VideoGameLibrary.Models.Game
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+        <div class="content">
+
+            <h1>Edit</h1>
+
+            <h4>Game</h4>
+            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <label asp-for="Title" class="control-label"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ReleaseDate" class="control-label"></label>
+                            <input asp-for="ReleaseDate" class="form-control" />
+                            <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Genre" class="control-label"></label>
+                            <input asp-for="Genre" class="form-control" />
+                            <span asp-validation-for="Genre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price" class="control-label"></label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Platform" class="control-label"></label>
+                            <input asp-for="Platform" class="form-control" />
+                            <span asp-validation-for="Platform" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NoOfPlayers" class="control-label"></label>
+                            <input asp-for="NoOfPlayers" class="form-control" />
+                            <span asp-validation-for="NoOfPlayers" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Publisher" class="control-label"></label>
+                            <input asp-for="Publisher" class="form-control" />
+                            <span asp-validation-for="Publisher" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BoxArt" class="control-label"></label>
+                            <input asp-for="BoxArt" class="form-control" />
+                            <span asp-validation-for="BoxArt" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Rating" class="control-label"></label>
+                            <input asp-for="Rating" class="form-control" />
+                            <span asp-validation-for="Rating" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Score" class="control-label"></label>
+                            @*<input asp-for="Score" class="form-control" />*@
+
+                            <select asp-for="Score">
+                                <option selected="selected" value="">Pick one</option>
+                                <option value="1">(1) Appalling</option>
+                                <option value="2">(2) Horrible</option>
+                                <option value="3">(3) Very Bad</option>
+                                <option value="4">(4) Bad</option>
+                                <option value="5">(5) Average</option>
+                                <option value="6">(6) Fine</option>
+                                <option value="7">(7) Good</option>
+                                <option value="8">(8) Very Good</option>
+                                <option value="9">(9) Great</option>
+                                <option value="10">(10) Masterpiece</option>
+
+                            </select>
+                            <span asp-validation-for="Score" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Progress" class="control-label"></label>
+                            <input asp-for="Progress" class="form-control" />
+                            <span asp-validation-for="Progress" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+
+     
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

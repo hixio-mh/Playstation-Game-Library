@@ -1,0 +1,5 @@
+﻿Unit Tests
+Import IMDB rating/description
+Create Proper Home Page
+Upload to Azure (https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb)
+Write up Overview ()
